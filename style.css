@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap");
+
+*,
+html {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e9fff7;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  margin-top: 8rem;
+  text-align: center;
+  height: 70vh;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #3d3d3d;
+  text-shadow: -2px 4px 5px #7c7c7c;
+}
+
+#form {
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+input {
+  padding: 0 1rem;
+  width: 100%;
+  height: 80px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%),
+    0 1px 5px 0 rgb(0 0 0 / 20%);
+  background-color: #ffffff;
+  font-size: 23px;
+}
+
+/* apa itu focus ?
+focus adalah kondisi dimana form sedang aktif/ketika
+sedang menulis dikolom */
+input:focus {
+  outline-color: rgb(15, 143, 111);
+}
+input::placeholder {
+  color: #7c7c7cbd;
+}
+
+small {
+  color: #7c7c7c;
+}
+
+button {
+  padding: 0 1rem;
+  margin-left: 1.2rem;
+  height: 80px;
+  font-size: 23px;
+  background-color: #007c7c;
+  border: none;
+  color: #fff;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%),
+    0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+button:hover {
+  background-color: #1ca0a0;
+}
+button:active {
+  background-color: #054242;
+}
+
+ul {
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+
+  font-size: 23px;
+}
+
+li {
+  margin: 0.2rem 0;
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%),
+    0 1px 5px 0 rgb(0 0 0 / 20%);
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #6e6e6e;
+}
+
+footer {
+  text-align: center;
+  margin: 2rem 0;
+}

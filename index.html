@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do-list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- kenapa harus "container" ?
+      seperti namanya kontainer biasanya digunakan untuk mengangkut 
+      barang/tempat dibuat untuk wadah sesuatu. (filosopi)-->
+    <div class="container">
+      <h1>Kegiatanku</h1>
+      <div id="form">
+        <input
+          id="input"
+          type="text"
+          class="input"
+          placeholder="Tulis kegiatanmu"
+          autocomplete="off"
+        />
+        <button type="submit" onclick="addBtn()">Tambah</button>
+      </div>
+
+      <ul class="todos" id="todos"></ul>
+
+      <small>
+        Klik kanan jika sudah menyelesaikan kegiatanmu <br />
+        Klik kanan jika ingin menghapus pekerjaanmu
+      </small>
+    </div>
+    <footer>by rizqi, thx u Brad Traversy ❤️</footer>
+  </body>
+  <script src="script.js"></script>
+</html>
