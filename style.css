@@ -55,6 +55,7 @@ input::placeholder {
 
 small {
   color: #7c7c7c;
+  margin-top: 2rem;
 }
 
 button {
@@ -128,6 +129,5 @@ footer {
   li {
     font-size: 14px;
     height: 40px;
-    margin-bottom: 2rem;
   }
 }
