@@ -13,7 +13,7 @@ html {
   margin: auto;
   margin-top: 8rem;
   text-align: center;
-  height: 70vh;
+  min-height: 70vh;
 }
 
 h1 {

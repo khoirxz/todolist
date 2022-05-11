@@ -8,6 +8,18 @@ const input = document.getElementById("input");
 // listEl adalah varibel element dari ul yang kita akan untuk memanipulasi data dari dataList
 const listEl = document.getElementById("todos");
 
+const form = document.getElementById("form");
+
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  if (inputData != "") {
+    addBtn();
+  } else {
+    alert("isi kegiatanmu dulu");
+  }
+});
+
 // addBtn adalah memberi fungsi ketika button dari html kita
 function addBtn() {
   // inputData berfungsi menyimpan value atau hasil dari ketikan dikolom input
